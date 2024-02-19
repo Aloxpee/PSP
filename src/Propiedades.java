@@ -37,7 +37,9 @@ public abstract class  Propiedades {
     }
 
     public abstract double getconsumo(int horas);
-    public abstract double getCosteConsumo(int horas, double costeHora);
+    public  double getCosteConsumo(int horas, double costeHora){
+        return horas*costeHora;
+    }
 
     @Override
     public String toString() {
