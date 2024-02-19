@@ -53,7 +53,6 @@ public class Lavadora extends Propiedades {
         return "Lavadora{" +
                 "precio=" + precio +
                 ", aguacaliente=" + aguacaliente +
-                getCosteConsumo+
                 '}';
     }
 }
