@@ -14,6 +14,6 @@ public class Main {
         lava.getconsumo(sc.nextInt());
         System.out.println("digame horas y cuanto le cuesta la hora");
         lava.getCosteConsumo(sc.nextInt(),sc.nextDouble());
-
+        System.out.println(lava.toString());
     }
 }
